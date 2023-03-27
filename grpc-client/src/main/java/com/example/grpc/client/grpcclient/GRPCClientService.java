@@ -44,7 +44,7 @@ public class GRPCClientService {
 		String resp= A.getC00()+" "+A.getC01()+"<br>"+A.getC10()+" "+A.getC11()+"\n";
 		return resp;
     }
-}
+
 
 
      public String multiply(){
@@ -63,8 +63,8 @@ public class GRPCClientService {
 			.setB10(5)
 			.setB11(6)
 			.build());
-// 		String resp= A.getC00()+" "+A.getC01()+"<br>"+A.getC10()+" "+A.getC11()+"\n";
-		String resp= A
+		String resp= A.getC00()+" "+A.getC01()+"<br>"+A.getC10()+" "+A.getC11()+"\n";
+// 		String resp= A
 		
 		return resp;
     }
